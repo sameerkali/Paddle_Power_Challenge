@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ball
+  - leftGoal
+  - rightGoal
+  - player1
+  - player2
   layers:
   - Default
   - TransparentFX
