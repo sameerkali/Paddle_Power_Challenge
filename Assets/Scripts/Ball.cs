@@ -14,12 +14,12 @@ public class Ball : MonoBehaviour
         StartPosition = transform.position;
         Launch();
     }
-    public void Reset()
+   /* public void Reset()
     {
         rb.velocity = Vector2.zero;
         transform.position = StartPosition;
         Launch();
-    }
+    }*/
     public void Launch()
     {
         float x = Random.Range(0, 2) == 0 ? -1 : 1;  
