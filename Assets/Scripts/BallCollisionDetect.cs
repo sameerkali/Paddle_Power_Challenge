@@ -42,7 +42,7 @@ public class BallCollisionDetect : MonoBehaviour
             p2score += 1;
             //Debug.Log("p2 score a goal");
             p2ScoreText.text = p2score.ToString();
-            if (p2score == 1)
+            if (p2score == 3)
             {
                 GameOverScreen.active = true;
                 p1Win.active = true;
@@ -54,7 +54,7 @@ public class BallCollisionDetect : MonoBehaviour
             p1score += 1;
             //Debug.Log("p1 score a goal");
             p1ScoreText.text = p1score.ToString();
-            if(p1score == 1)
+            if(p1score == 3)
             {
                 GameOverScreen.active = true;
                 p2Win.active = true;
